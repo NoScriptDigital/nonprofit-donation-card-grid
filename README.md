@@ -18,7 +18,9 @@ These snippets are designed for Squarespace Code Blocks, Custom CSS, and layout 
 
 ### Donation Card Grid
 
-A responsive three-card layout for nonprofit donation pages, sponsorship sections, matching gift content, and planned giving sections.
+A responsive three-card layout that solves uneven spacing, copy alignment, button positioning, and mobile stacking limitations in Squarespace built-in blocks.
+
+[View live demo](https://noscriptdigital.github.io/squarespace-code-snippets/donation-card-grid/)
 
 View files:
 
@@ -28,16 +30,28 @@ View files:
 
 ### Dropdown Navigation Redirect Fix
 
-A JavaScript snippet for Squarespace 7.1 dropdown folder navigation when parent navigation labels need to redirect to real landing pages.
+A JavaScript solution for Squarespace 7.1 dropdown folders when parent navigation labels need to redirect users to actual landing pages.
 
 View files:
 
 * `dropdown-navigation-redirect-fix/script.html`
 * `dropdown-navigation-redirect-fix/README.md`
 
+### Code Block Scroll Reveal
+
+A JavaScript and CSS solution that extends Squarespace scroll-reveal animations to custom Code Block elements so they animate consistently with built-in page content.
+
+View files:
+
+* `code-block-scroll-reveal/script.html`
+* `code-block-scroll-reveal/styles.css`
+* `code-block-scroll-reveal/README.md`
+
 ### Responsive Equipment Card Table
 
-A compact category grid that combines card styling with table-like row and column organization. It solves Squarespace spacing, alignment, and responsive layout limitations for smaller repeated content items.
+A responsive grid that combines compact card styling with table-like row and column organization, solving spacing and alignment limitations for smaller repeated Squarespace content items.
+
+[View live demo](https://noscriptdigital.github.io/squarespace-code-snippets/equipment-card-table-grid/)
 
 View files:
 
@@ -45,31 +59,29 @@ View files:
 * `equipment-card-table-grid/styles.css`
 * `equipment-card-table-grid/README.md`
 
-```markdown
-### Gallery Navigation Text Labels
+### Slideshow Navigation Text Labels
 
-A CSS-only Squarespace gallery enhancement that adds visible “Previous” and “Next” labels to slideshow navigation controls while preserving the built-in arrow icons and applying custom brand colors.
+A CSS-only enhancement that adds visible “Previous” and “Next” labels to Squarespace slideshow controls while preserving the built-in arrow icons and applying custom brand colors.
 
 View files:
 
-* `gallery-navigation-text-labels/styles.css`
-* `gallery-navigation-text-labels/README.md`
-```
+* `slideshow-navigation-text-labels/styles.css`
+* `slideshow-navigation-text-labels/README.md`
 
-```markdown
 ### Navigation Link CTA Button
 
-A CSS-only Squarespace navigation enhancement that transforms a selected desktop and mobile menu link into a branded CTA button while keeping it within the normal navigation order.
+A CSS-only navigation enhancement that transforms a selected Squarespace desktop and mobile menu link into a branded CTA button while keeping it within the normal navigation order.
 
 View files:
 
 * `navigation-link-cta-button/styles.css`
 * `navigation-link-cta-button/README.md`
-```
 
 ### Linked Logo Marquee
 
-A responsive HTML and CSS marquee that displays clickable publication, press, partner, or client logos in a seamless scrolling strip. It extends Squarespace beyond its built-in text-only scrolling options.
+A responsive HTML and CSS marquee that displays clickable publication, press, partner, or client logos in a seamless scrolling strip, extending Squarespace beyond its built-in text-only scrolling options.
+
+[View live demo](https://noscriptdigital.github.io/squarespace-code-snippets/linked-logo-marquee/)
 
 View files:
 
@@ -77,16 +89,14 @@ View files:
 * `linked-logo-marquee/styles.css`
 * `linked-logo-marquee/README.md`
 
-```markdown
 ### VideoObject Schema
 
-A reusable JSON-LD snippet for describing embedded Squarespace videos with title, description, thumbnail, upload date, and embed URL information.
+A reusable JSON-LD snippet that describes an embedded Squarespace video with its title, description, thumbnail, upload date, and embed URL.
 
 View files:
 
 * `video-object-schema/video-schema.html`
 * `video-object-schema/README.md`
-```
 
 
 ## Notes
