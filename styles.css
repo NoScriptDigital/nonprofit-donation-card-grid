@@ -50,6 +50,7 @@ body {
 .nsd-grid {
   display: grid;
   gap: 24px;
+  align-items: stretch;
 }
 
 .nsd-grid--3 {
@@ -60,11 +61,14 @@ body {
   background: #ffffff;
   border: 1px solid #dfe6ea;
   border-radius: 14px;
-  overflow: hidden;
+  overflow: visible;
+  display: flex;
+  height: 100%;
 }
 
 .nsd-card__body {
-  min-height: 290px;
+  min-height: 310px;
+  width: 100%;
   padding: 20px 20px 22px;
   display: flex;
   flex-direction: column;
