@@ -1,1 +1,90 @@
+:root {
+  --nav-cta-background: #3f8f8a;
+  --nav-cta-hover: #1f5f5b;
+  --nav-cta-text: #ffffff;
+  --nav-cta-radius: 3px;
+}
 
+/*
+ * Squarespace Navigation Link CTA Button
+ *
+ * Styles a selected desktop and mobile navigation link
+ * as a prominent call-to-action button.
+ */
+
+/* Desktop and mobile CTA link */
+.header-nav-item a[href*="browse-all-cartoon-sets"],
+.header-menu-nav-item a[href*="browse-all-cartoon-sets"] {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  background-color: var(--nav-cta-background);
+  color: var(--nav-cta-text) !important;
+  padding: 0.75rem 1rem;
+  border-radius: var(--nav-cta-radius);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+/* Hover and keyboard focus */
+.header-nav-item a[href*="browse-all-cartoon-sets"]:hover,
+.header-menu-nav-item a[href*="browse-all-cartoon-sets"]:hover,
+.header-nav-item a[href*="browse-all-cartoon-sets"]:focus-visible,
+.header-menu-nav-item a[href*="browse-all-cartoon-sets"]:focus-visible {
+  background-color: var(--nav-cta-hover);
+  color: var(--nav-cta-text) !important;
+}
+
+/* Accessible keyboard focus */
+.header-nav-item a[href*="browse-all-cartoon-sets"]:focus-visible,
+.header-menu-nav-item a[href*="browse-all-cartoon-sets"]:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
+
+/* General mobile menu typography */
+.header--menu-open .header-menu a,
+.header-menu-nav-item a {
+  font-family: "Lato", Arial, sans-serif !important;
+  font-size: 1.2rem !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.01em !important;
+  line-height: 1.1 !important;
+}
+
+/*
+ * Restore CTA-specific typography after the broader
+ * mobile navigation typography rule.
+ */
+.header-menu-nav-item a[href*="browse-all-cartoon-sets"] {
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.04em !important;
+  line-height: 1 !important;
+}
+
+/* Keep the mobile CTA aligned with the menu links */
+.header-menu-nav-item:has(
+  a[href*="browse-all-cartoon-sets"]
+) {
+  display: flex;
+  justify-content: center;
+}
+
+/* Small-screen adjustment */
+@media screen and (max-width: 640px) {
+  .header-menu-nav-item a[href*="browse-all-cartoon-sets"] {
+    padding: 0.8rem 1rem;
+    max-width: 100%;
+    white-space: normal;
+  }
+}
