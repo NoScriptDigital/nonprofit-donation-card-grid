@@ -1,1 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Contrasting Pricing Package Cards</title>
+
+  <meta
+    name="description"
+    content="A responsive two-card pricing layout with contrasting visual styles, aligned content, availability labels, badges, and call-to-action buttons."
+  >
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <main class="pricing-demo">
+
+    <section class="pricing-section" aria-labelledby="pricing-heading">
+
+      <p class="pricing-section__eyebrow">Accommodation Options</p>
+
+      <h1 id="pricing-heading" class="pricing-section__title">
+        Choose the experience that fits you
+      </h1>
+
+      <div class="pricing-grid">
+
+        <!-- Light package card -->
+        <article class="pricing-card pricing-card--light">
+
+          <p class="pricing-card__eyebrow">All Inclusive</p>
+
+          <h2 class="pricing-card__title">Private Room</h2>
+
+          <div class="pricing-card__price">
+            <span class="pricing-card__amount">$2,995</span>
+            <span class="pricing-card__starting">Starting</span>
+          </div>
+
+          <p class="pricing-card__description">
+            A private space for guests who prefer additional quiet, privacy,
+            and room to recharge throughout their stay.
+          </p>
+
+          <p class="pricing-card__availability">
+            Limited Availability
+          </p>
+
+          <a class="pricing-card__button" href="#reserve-private">
+            Reserve Your Room
+          </a>
+
+        </article>
+
+        <!-- Dark package card -->
+        <article class="pricing-card pricing-card--dark">
+
+          <span class="pricing-card__badge">
+            Most Popular
+          </span>
+
+          <p class="pricing-card__eyebrow">Community Living</p>
+
+          <h2 class="pricing-card__title">Shared Room</h2>
+
+          <div class="pricing-card__price">
+            <span class="pricing-card__amount">$2,395</span>
+            <span class="pricing-card__starting">Starting</span>
+          </div>
+
+          <p class="pricing-card__description">
+            A shared accommodation option for guests who value connection,
+            community, and meaningful time with others.
+          </p>
+
+          <p class="pricing-card__availability">
+            Open Availability
+          </p>
+
+          <a class="pricing-card__button" href="#reserve-shared">
+            Reserve Your Room
+          </a>
+
+        </article>
+
+      </div>
+
+    </section>
+
+  </main>
+
+</body>
+</html>
 
