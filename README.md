@@ -26,6 +26,15 @@ View files:
 * `donation-card-grid/styles.css`
 * `donation-card-grid/README.md`
 
+### Dropdown Navigation Redirect Fix
+
+A JavaScript snippet for Squarespace 7.1 dropdown folder navigation when parent navigation labels need to redirect to real landing pages.
+
+View files:
+
+* `dropdown-navigation-redirect-fix/script.html`
+* `dropdown-navigation-redirect-fix/README.md`
+
 ## Notes
 
 These snippets are generalized examples based on common Squarespace website layout needs.
